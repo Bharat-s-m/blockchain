@@ -5,6 +5,7 @@ import MarketplaceJSON from "../Marketplace.json";
 import axios from "axios";
 import { useState } from "react";
 import { GetIpfsUrlFromPinata } from "../utils";
+import img from '../back.png'
 
 export default function NFTPage (props) {
 
@@ -79,7 +80,7 @@ async function buyNFT(tokenId) {
         <div style={{"min-height":"100vh"}}>
             <Navbar></Navbar>
             <div className="flex ml-20 mt-20">
-                <img src={data.image} alt="" className="w-2/5" />
+                <img src={img} alt="" className="w-80 h-80" />
                 <div className="text-xl ml-20 space-y-8 text-white shadow-2xl rounded-lg border-2 p-5">
                     <div>
                         Name: {data.name}

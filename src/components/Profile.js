@@ -61,10 +61,11 @@ export default function Profile () {
         getNFTData(tokenId);
 
     return (
-        <div className="profileClass" style={{"min-height":"100vh"}}>
+        <div className="" style={{"min-height":"100vh"}}>
             <Navbar></Navbar>
-            <div className="profileClass">
-            <div className="flex text-center flex-col mt-11 md:text-2xl text-white">
+            <div className="flex justify-center items-center h-[400px]">
+            <div className=" border-dashed backdrop-blur pb-10 border-2 w-2/5">
+            <div className="flex text-center flex-col mt-11 md:text-2xl text-white"> 
                 <div className="mb-5">
                     <h2 className="font-bold">Wallet Address</h2>  
                     {address}
@@ -90,6 +91,7 @@ export default function Profile () {
                 <div className="mt-10 text-xl">
                     {data.length == 0 ? "Oops, No NFT data to display (Are you logged in?)":""}
                 </div>
+            </div>
             </div>
             </div>
         </div>

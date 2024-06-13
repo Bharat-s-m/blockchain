@@ -11,8 +11,10 @@ body {
   /*font-family: 'M PLUS 1p', sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./bg.png');
-  background-size: 200% 180%;
+  background-image: url('https://th.bing.com/th/id/R.140a8bb50aa796ce540d55f5fd6b765e?rik=%2bAS%2frOFhSD96uw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2015%2f12%2f243666-forest-simple_background-trees-path-nature-landscape.jpg&ehk=aj3F85tSALOaGWl8W%2bopX06tRs%2fC5ehmBHlDeYcHtpc%3d&risl=&pid=ImgRaw&r=0');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-delay: 0s;
